@@ -15,6 +15,3 @@ print(torch.cuda.current_device()) #Should be 0
 # https://pypi.org/project/nvidia-cudnn/
 # pip install nvidia-pyindex
 # pip install nvidia-cudnn
-
-
-
