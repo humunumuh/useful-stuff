@@ -1,1 +1,2 @@
 - Firefox tab switcher
+- Gnome linux night light extensions
