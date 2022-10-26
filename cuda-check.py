@@ -7,11 +7,8 @@
 import torch
 
 print(torch.version.cuda) #Cuda must be compatible with the torch installation
-
 print(torch.cuda.is_available()) #Should be True
-
 print(torch.cuda.device_count()) #Should be 1
-
 print(torch.cuda.current_device()) #Should be 0
 
 # Install cudnn (further acceleration)
