@@ -23,12 +23,12 @@ print(torch.backends.cudnn.version()) # Version number
 - Follow any online guide for installing linux Anaconda, such as https://unixcop.com/how-to-install-anaconda-on-fedora-36/.  
 - In the Anaconda GUI install tensorflow-gpu, which installs cuda and cudnn as dependencies (unlike PyPi, which is more complex)
 
-- Check the installations has worked:  
+- Check the installation worked:  
 ```
 import tensorflow as tf  
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU'))) # Should be 1  
 ```
-- If 1 is available, then this also confirms cuda and cudnn are working (https://stackoverflow.com/questions/48566505/how-can-i-check-if-keras-tensorflow-is-using-cudnn)  
+- If 1 is available, then this also confirms cuda and cudnn are working (https://stackoverflow.com/questions/48566505/how-can-i-check-if-keras-tensorflow-is-using-cudnn).  
 
 - A second, more detailed check can be performed with: 
 ```
