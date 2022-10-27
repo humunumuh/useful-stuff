@@ -1,5 +1,7 @@
 ### Work
 - AutoML/NASnet (automatically creating best architecture)  
+- Testing auto-segmentation models
+- Glioma grading
 
 ### Fun
 - Firefox tab switcher
