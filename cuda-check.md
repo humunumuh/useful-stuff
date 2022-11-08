@@ -34,3 +34,10 @@ print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('
 ```
 tf.compat.v1.Session()
 ```
+
+## TENSORFLOW  
+
+- https://www.tensorflow.org/install/pip#linux
+- Similar to above but using the command line. Probably a bit more reliable.  
+- Don't forget that you can use pip to install packages to a conda environment (when not available in conda/conda-forge channels)
+
